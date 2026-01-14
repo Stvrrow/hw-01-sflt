@@ -25,7 +25,7 @@
 
 Ссылка на файл схемы формате pkt с выполненным заданием:
 
-![pkt](https://github.com/Stvrrow/hw-01-sflt/blob/main/hsrp_advanced_modified.pkt)
+![hsrp_advanced_modified.pkt](https://github.com/Stvrrow/hw-01-sflt/blob/main/hsrp_advanced_modified.pkt)
 
 ------
 
