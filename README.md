@@ -16,12 +16,15 @@
 ![Процесс настройки маршрутизатора](https://github.com/Stvrrow/hw-01-sflt/blob/main/img/img1.png)
 
 Скриншот конфигурации интерфейсов GI 0/0 и GI 0/1 на маршрутизатора
+
 ![Конфигурация интерфейсов](https://github.com/Stvrrow/hw-01-sflt/blob/main/img/img2.png)
 
 Скриншот работы команды ping от PC0 до Server0 после разрыва кабеля
+
 ![Работа после разрыва кабеля](https://github.com/Stvrrow/hw-01-sflt/blob/main/img/img3.png)
 
 Ссылка на файл схемы формате pkt с выполненным заданием:
+
 ![pkt](https://github.com/Stvrrow/hw-01-sflt/blob/main/hsrp_advanced_modified.pkt)
 
 ------
@@ -36,22 +39,26 @@
 #### Решение
 
 Статус службы keepalived на серверах до удаления файла index.html на master сервере
+
 ![Службы до удаления index.html](https://github.com/Stvrrow/hw-01-sflt/blob/main/img/img4.png)
 
 Веб страница nginx, работающая на master сервере
+
 ![nginx master](https://github.com/Stvrrow/hw-01-sflt/blob/main/img/img5.png)
 
 После удаления файла index.html на master сервере (в данном случае просто переименовал его), отработал bash скрипт и backup сервер взял на себя роль master
+
 ![Службы после удаления index.html](https://github.com/Stvrrow/hw-01-sflt/blob/main/img/img6.png)
 
 Веб страница nginx, работающая на backup сервере
+
 ![nginx backup](https://github.com/Stvrrow/hw-01-sflt/blob/main/img/img7.png)
 
-Ссылка на файл конфигурации master сервера
+Ссылка на файл конфигурации master сервера:
 ![keepalived_master.conf](https://github.com/Stvrrow/hw-01-sflt/blob/main/keepalived_master.conf)
 
-Ссылка на файл конфигурации backup сервера
+Ссылка на файл конфигурации backup сервера:
 ![keepalived_backup.conf](https://github.com/Stvrrow/hw-01-sflt/blob/main/keepalived_backup.conf)
 
-Ссылка на bash скрипт
+Ссылка на bash скрипт:
 ![check_web_service.sh](https://github.com/Stvrrow/hw-01-sflt/blob/main/check_web_service.sh)
